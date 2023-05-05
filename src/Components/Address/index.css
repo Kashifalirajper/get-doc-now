@@ -1,0 +1,10 @@
+@media (max-width: 768px) {
+  .MuiTableCell-root {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+  .MuiTableCell-head {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+}

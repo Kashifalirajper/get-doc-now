@@ -1,0 +1,45 @@
+.arrow {
+  width: 30px;
+  height: 30px;
+  background-color: blue;
+}
+.btnArrow {
+  background-color: #1eabc7 !important;
+  width: 30px;
+  height: 25px;
+}
+.closeIconBox {
+  display: none;
+}
+.openIconBox {
+  display: block;
+}
+@media (max-width: 767px) {
+  .onMobileHid {
+    display: none;
+  }
+}
+.idContent {
+  display: none;
+}
+@media (max-width: 767px) {
+  .idContent {
+    display: block;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .openIconBox {
+    display: block;
+  }
+  .closeIconBox {
+    display: block;
+  }
+}
+.hidePenContainer {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .hidePenContainer {
+    display: block;
+  }
+}
